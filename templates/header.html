@@ -1,0 +1,13 @@
+<div class="row top-menu">
+	<div class="col-md-6">
+		<a href="{{url_for('restaurants')}}">
+			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All Restaurants
+		</a>
+	</div>
+	<div class="col-md-6 text-right">
+				<form action= "{{url_for('showLogin', restaurant_id = restaurant_id)}}" method = 'POST'>
+					<p><a href ="{{url_for('showLogin') }}">Login</a> </p>
+				</form>
+		
+	</div>
+</div>
