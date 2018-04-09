@@ -19,7 +19,7 @@ Login has been implemented using Google OAuth Sign-In
 3. Once the vagrant machine is up, use `vagrant ssh` on a unix like machine and use `winpty vagrant ssh` on a windows machine
 4. Once the virtual machine is up, navigate to the restaurant-project directory
 5. Run `python database_setup.py` to set up the sqlite database
-6. Run 'python newLotsOfMenus.py' to set up some data in the database created in step 5
-7. Run 'python finalProject.py' to start the server
+6. Run `python newLotsOfMenus.py` to set up some data in the database created in step 5
+7. Run `python finalProject.py` to start the server
 8. Go to 'localhost:5000/restaurants'. This is the index page of the application.
 9. Login using google account and perform CRUD operations
